@@ -4,16 +4,40 @@ exports[`should render ExpenseListItem correctly 1`] = `
 <div>
   <Link
     replace={false}
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
     to="/edit/1"
   >
-    <h3>
-      Gum
-    </h3>
+    <ListItem
+      autoGenerateNestedIndicator={true}
+      containerElement="span"
+      disableKeyboardFocus={false}
+      disabled={false}
+      initiallyOpen={false}
+      insetChildren={false}
+      nestedItems={Array []}
+      nestedLevel={0}
+      onKeyboardFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onNestedListToggle={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      open={null}
+      primaryText="Gum"
+      primaryTogglesNestedList={false}
+      rightIcon={
+        <ActionInfo>
+          1.95
+          $
+        </ActionInfo>
+      }
+      secondaryText="Jan 1st 70"
+      secondaryTextLines={1}
+    />
   </Link>
-  <p>
-    195
-     - 
-    0
-  </p>
 </div>
 `;

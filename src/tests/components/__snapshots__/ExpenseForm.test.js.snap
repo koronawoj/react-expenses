@@ -4,19 +4,39 @@ exports[`should render ExpenseForm correctly 1`] = `
 <div>
   <form
     onSubmit={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "margin": "0 auto",
+        "maxWidth": "500px",
+      }
+    }
   >
-    <input
-      autoFocus={true}
+    <TextField
+      defaultValue=""
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Description"
+      fullWidth={false}
+      multiLine={false}
       onChange={[Function]}
-      placeholder="Description"
+      rows={1}
       type="text"
-      value=""
+      underlineShow={true}
     />
-    <input
+    <TextField
+      defaultValue=""
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Amount"
+      fullWidth={false}
+      multiLine={false}
       onChange={[Function]}
-      placeholder="Amount"
+      rows={1}
       type="text"
-      value=""
+      underlineShow={true}
     />
     <SingleDatePicker
       anchorDirection="left"
@@ -90,14 +110,27 @@ exports[`should render ExpenseForm correctly 1`] = `
       withFullScreenPortal={false}
       withPortal={false}
     />
-    <textarea
+    <TextField
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Add a note (optional)"
+      fullWidth={false}
+      multiLine={true}
       onChange={[Function]}
-      placeholder="Add a note for your expense (optional)"
+      rows={2}
+      type="text"
+      underlineShow={true}
       value=""
     />
-    <button>
-      Add Expense
-    </button>
+    <RaisedButton
+      disabled={false}
+      fullWidth={true}
+      label="Add Expense"
+      labelPosition="after"
+      onClick={[Function]}
+      primary={true}
+      secondary={false}
+    />
   </form>
 </div>
 `;
@@ -106,19 +139,39 @@ exports[`should render ExpenseForm with expense data 1`] = `
 <div>
   <form
     onSubmit={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "margin": "0 auto",
+        "maxWidth": "500px",
+      }
+    }
   >
-    <input
-      autoFocus={true}
+    <TextField
+      defaultValue="Rent"
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Description"
+      fullWidth={false}
+      multiLine={false}
       onChange={[Function]}
-      placeholder="Description"
+      rows={1}
       type="text"
-      value="Rent"
+      underlineShow={true}
     />
-    <input
+    <TextField
+      defaultValue="1095"
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Amount"
+      fullWidth={false}
+      multiLine={false}
       onChange={[Function]}
-      placeholder="Amount"
+      rows={1}
       type="text"
-      value="1095"
+      underlineShow={true}
     />
     <SingleDatePicker
       anchorDirection="left"
@@ -192,14 +245,27 @@ exports[`should render ExpenseForm with expense data 1`] = `
       withFullScreenPortal={false}
       withPortal={false}
     />
-    <textarea
+    <TextField
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Add a note (optional)"
+      fullWidth={false}
+      multiLine={true}
       onChange={[Function]}
-      placeholder="Add a note for your expense (optional)"
+      rows={2}
+      type="text"
+      underlineShow={true}
       value=""
     />
-    <button>
-      Add Expense
-    </button>
+    <RaisedButton
+      disabled={false}
+      fullWidth={true}
+      label="Add Expense"
+      labelPosition="after"
+      onClick={[Function]}
+      primary={true}
+      secondary={false}
+    />
   </form>
 </div>
 `;
@@ -208,19 +274,39 @@ exports[`should render error for invalid form submission 1`] = `
 <div>
   <form
     onSubmit={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "margin": "0 auto",
+        "maxWidth": "500px",
+      }
+    }
   >
-    <input
-      autoFocus={true}
+    <TextField
+      defaultValue=""
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Description"
+      fullWidth={false}
+      multiLine={false}
       onChange={[Function]}
-      placeholder="Description"
+      rows={1}
       type="text"
-      value=""
+      underlineShow={true}
     />
-    <input
+    <TextField
+      defaultValue=""
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Amount"
+      fullWidth={false}
+      multiLine={false}
       onChange={[Function]}
-      placeholder="Amount"
+      rows={1}
       type="text"
-      value=""
+      underlineShow={true}
     />
     <SingleDatePicker
       anchorDirection="left"
@@ -294,14 +380,27 @@ exports[`should render error for invalid form submission 1`] = `
       withFullScreenPortal={false}
       withPortal={false}
     />
-    <textarea
+    <TextField
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Add a note (optional)"
+      fullWidth={false}
+      multiLine={true}
       onChange={[Function]}
-      placeholder="Add a note for your expense (optional)"
+      rows={2}
+      type="text"
+      underlineShow={true}
       value=""
     />
-    <button>
-      Add Expense
-    </button>
+    <RaisedButton
+      disabled={false}
+      fullWidth={true}
+      label="Add Expense"
+      labelPosition="after"
+      onClick={[Function]}
+      primary={true}
+      secondary={false}
+    />
   </form>
 </div>
 `;
@@ -313,19 +412,39 @@ exports[`should render error for invalid form submission 2`] = `
   </p>
   <form
     onSubmit={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "margin": "0 auto",
+        "maxWidth": "500px",
+      }
+    }
   >
-    <input
-      autoFocus={true}
+    <TextField
+      defaultValue=""
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Description"
+      fullWidth={false}
+      multiLine={false}
       onChange={[Function]}
-      placeholder="Description"
+      rows={1}
       type="text"
-      value=""
+      underlineShow={true}
     />
-    <input
+    <TextField
+      defaultValue=""
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Amount"
+      fullWidth={false}
+      multiLine={false}
       onChange={[Function]}
-      placeholder="Amount"
+      rows={1}
       type="text"
-      value=""
+      underlineShow={true}
     />
     <SingleDatePicker
       anchorDirection="left"
@@ -399,14 +518,27 @@ exports[`should render error for invalid form submission 2`] = `
       withFullScreenPortal={false}
       withPortal={false}
     />
-    <textarea
+    <TextField
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="Add a note (optional)"
+      fullWidth={false}
+      multiLine={true}
       onChange={[Function]}
-      placeholder="Add a note for your expense (optional)"
+      rows={2}
+      type="text"
+      underlineShow={true}
       value=""
     />
-    <button>
-      Add Expense
-    </button>
+    <RaisedButton
+      disabled={false}
+      fullWidth={true}
+      label="Add Expense"
+      labelPosition="after"
+      onClick={[Function]}
+      primary={true}
+      secondary={false}
+    />
   </form>
 </div>
 `;

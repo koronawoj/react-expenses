@@ -90,6 +90,8 @@ export default class ExpenseForm extends React.Component {
             floatingLabelText="Add a note (optional)"
             multiLine={true}
             rows={2}
+            value={this.state.note}
+            onChange={this.onNoteChange}
           />
           <RaisedButton label="Add Expense" fullWidth={true} primary={true} onClick={this.onSubmit} />
         </form>

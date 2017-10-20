@@ -1,7 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render EditExpensePage correctly 1`] = `
-<div>
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <h1>
+    Edit Expense
+  </h1>
   <ExpenseForm
     expense={
       Object {
@@ -14,10 +24,19 @@ exports[`should render EditExpensePage correctly 1`] = `
     }
     onSubmit={[Function]}
   />
-  <button
+  <FlatButton
+    disabled={false}
+    fullWidth={false}
+    label="Remove"
+    labelPosition="after"
+    labelStyle={Object {}}
     onClick={[Function]}
-  >
-    Remove
-  </button>
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onTouchStart={[Function]}
+    primary={false}
+    secondary={true}
+  />
 </div>
 `;

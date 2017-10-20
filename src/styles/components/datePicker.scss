@@ -1,0 +1,35 @@
+
+.DateRangePicker {
+    width: 300px;
+    border: none;
+    height: 39px;
+    padding: 0px;
+    border-bottom: 1px solid #d8d8d8;
+    margin: 0px;
+}
+.DateRangePicker{
+    display: flex;
+    justify-content: center;
+}
+.DateRangePickerInput {
+  border: none;
+  height: 39px;
+  width: 280px;
+}
+.DateInput, .DateInput--with-caret {
+  padding: 0px;
+  width: 100px;
+}
+.DateInput__display-text{
+  background-color: transparent;
+}
+.DateInput__input {
+  cursor: pointer;
+}
+.SingleDatePickerInput{
+  border: none;
+  padding: 30px 0 0 0;
+}
+.SingleDatePicker__picker, .SingleDatePicker__picker--direction-left, .SingleDatePicker__picker--horizontal{
+      left: -100% !important;
+}
